@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="css/loogin.css">
+</head>
+<body>
+
+	<div class="wrapper">
+
+	<h2>LOG IN</h2>
+	<form action="signup.php" method="post" onsubmit="return validateForm()">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<br>
+		<br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+<br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+<br><br><br>
+		
+		<button type="submit" class="btn-submit">Log in</button>
+		<br>
+
+<p>
+	<br>
+		Don't have an account? 
+		<br>
+		<a href="signup.html">Sign up</a>
+	</p>
+	</form>
+	<div>
+</body>
+</html>
